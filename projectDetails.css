@@ -1,0 +1,115 @@
+body{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("back.jpg");
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	font-size: 4vmin;
+}
+
+#projectDetails{
+	display: block;
+	text-align: center;
+}
+
+#projectForm{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.projectTextBox{
+	height: 30px;
+	width: 140;
+	font-size: 2.7vmin;
+	border-radius: 5px;
+	border:2px solid #252525;
+}
+
+.projectDescription{
+	font-size: 2.7vmin;
+	border-radius: 5px;
+	border:2px solid #252525;
+}
+
+#projectSubmit,#projectClear{
+	height: 35px;
+	width: 100;
+	font-size: 2.7vmin;
+	border-radius: 10px;
+	border:2px solid #252525;
+}
+
+#fileupload{
+	height: 35px;
+	width: 100;
+	font-size: 2.7vmin;
+	border-radius: 10px;
+	border:0px solid #252525;
+}
+
+#dvPreview
+{
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    min-height:150px;
+    min-width: 150px;
+    display: none;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: #252525;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  position: relative;
+  background-color:#eaf0f9;
+  color:#252525;
+  margin: auto;
+  padding: 8px;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 50%;
+  height: 35%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+ }

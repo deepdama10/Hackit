@@ -1,0 +1,80 @@
+body{
+	background: #595959;
+	background-size: cover;
+	/*text-align: center;*/
+	color: #fff;
+	font-size: 4vmin;
+}
+
+#card{
+	background: #252525;
+	color: #fff;
+	border-radius: 15px;	
+}
+
+#parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	/*align-items: left;*/
+}
+
+.img{
+	flex-basis: 60%;
+}
+
+.detail{
+	flex-basis: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#raised, #donor{
+	font-size: 5vmin;
+	margin-bottom: 0;
+}
+
+#goal, #down{
+	font-style: 4vmin;
+	margin-top: 0;
+	color: gray;
+}
+
+.img img{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.child{
+	padding: 1%;
+}
+
+#projectBack{
+	color: #252525;
+	background-color: #fff;
+	width: 85%;
+	border-radius: 15px;
+}
+
+#projectBack p{
+	padding: 1%;
+	margin: 0;
+	text-align: center;
+}
+
+#donationSite{
+	text-align: center;
+}
+
+#donationSite input{
+	border-radius: 15px;
+	font-size: 4vmin;
+	margin: 2%;
+}
+
+.description{
+	text-align: justify;
+	margin: 2%;
+}

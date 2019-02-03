@@ -1,0 +1,127 @@
+body{
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("back.jpg");
+	background-size: cover;
+	text-align: center;
+  margin-top: 5px;
+	color: #fff;
+	font-size: 4vmin;
+}
+
+.choices{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: auto;
+	justify-content: space-around;
+}
+
+.choices p{
+	padding: 5% 10%;
+}
+
+#personalDetails{
+	display: block;
+	text-align: center;
+}
+
+#personalForm{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+#already{
+  /*float:right;*/
+  position: absolute;
+  right: 15px; 
+
+}
+
+#LoginButton{
+  height: 35px;
+  width: 100;
+  font-size: 2.7vmin;
+  border-radius: 10px;
+  border:2px solid #252525;
+}
+
+.personalButton,{
+	height: 35px;
+	width: 100;
+	font-size: 2.7vmin;
+	border-radius: 10px;
+	border:2px solid #252525;
+}
+
+.personalTextBox{
+	height: 30px;
+	width: 140;
+	font-size: 2.7vmin;
+	border-radius: 5px;
+	border:2px solid #252525;
+}
+
+.personalSelect{
+	font-size: 2.7vmin;
+}
+
+
+/*.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+}
+  
+  
+
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.close {
+  color: #252525;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body {
+  position: relative;
+  background-color:#eaf0f9;
+  color:#252525;
+  margin: auto;
+  padding: 8px;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 30%;
+  height: 33%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+ }
+
+*/

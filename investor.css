@@ -1,0 +1,212 @@
+body{
+	background: #252525;
+	text-align: center;
+	color: #fff;
+	font-size: 3vmin;
+	margin: 0;
+	padding: 0;
+}
+
+#bg{
+	margin-top: 90px;
+	margin-bottom: 3%;
+}
+
+.close {
+  color: #252525;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card{
+	width: 95%;
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+.details{
+	flex-basis: 80%;
+	padding: 0 3%;
+	text-align: justify;
+}
+
+.details h3{
+	text-align: center;
+}
+
+.img{
+	flex-basis: 20%;
+}
+
+.card .img img{
+	width: 100%;
+	margin-left: 5%;
+	border-radius: 10px;
+}
+
+.card .details .link{
+	text-align: right;
+}
+
+.card .details a{
+	color: aquamarine;
+}
+
+#back2Top {
+    width: 80px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    font-size: 30px;
+}
+
+#topNav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: #595959;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 73px;
+	left: 0;
+	padding: 0 2%;
+}
+
+#topNav #categories{
+	flex-basis: 75%;
+	text-align: left;
+	padding: 1% 0;
+}
+
+#topNav #registerNow{
+	flex-basis: 25%;
+	padding: 1% 2%;
+	padding-right: 4%;
+	background: #ffd280;
+	color: #252525;
+}
+
+#topNav #registerNow p{
+	margin: 0;
+}
+
+#topNav #registerNow:hover{
+	background: #ffb833;
+}
+
+#topNav .genre{
+	display: inline;
+}
+
+#detailsModal{
+	background: #eaf0f9;
+	color: #252525;
+	width: 40%;
+	position: fixed;
+	display: block;
+	top: 5%;
+	left: 30%;
+	border-radius: 10px;
+	text-align: left;
+	z-index: 99999999;
+}
+
+#detailsModal{
+	top: 3%;
+	padding: 0 2%;
+	text-align: justify;
+	overflow-y: auto;
+	box-sizing: border-box; 
+}
+
+#detailsModal img{
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+#detailsModal::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#detailsModal::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#detailsModal::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #595959;
+}
+
+#registerInvestor{
+	padding: 3%;
+}
+
+#registerInvestor input[type = "number"],
+#registerInvestor input[type = "text"]{
+	display: block;
+	border: 2px solid #595959;
+	width: 93%;
+	padding: 0 1%; 
+	color: #000;
+	font-size: 3vmin;
+	margin: 3%;
+}
+
+#registerInvestor #citySelect{
+	margin-top: 5%;
+}
+
+#registerInvestor #submitButton{
+	background: #252525;
+	border: none;
+	display: block;
+	color: #fff;
+	font-size: 3vmin;
+	margin: auto;
+	border-radius: 50px;
+	padding: 0.5%;
+	margin-top: 10%;
+	width: 25%;
+}
+
+#donateButton{
+	background: #252525;
+	border: none;
+	display: block;
+	color: #fff;
+	font-size: 3vmin;
+	margin: 4% auto;
+	text-align: center;
+	border-radius: 50px;
+	padding: 0.5%;
+	width: 40%;
+}
+

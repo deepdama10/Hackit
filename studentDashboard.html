@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+		integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+		crossorigin="anonymous"></script>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="donation.css">
+</head>
+<body>
+	<h1 style="text-align: center;">Title</h1>
+	<div id = "card">
+		<div id="parent">
+			<div class = "child img">
+				<img src="xyz.png">			
+			</div>
+			<div class = "child detail">
+				<div id = "donation">
+					<p id = "raised">452$</p>
+					<p id = "goal">raised of 2400$ goal</p>
+				</div>
+				<div id = "donor-no">
+					<p id = "donor">21</p>
+					<p id = "down">donors</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "description">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<script type="text/javascript">
+		$(function(){
+
+			$("#donationSite").hide();
+
+			$("#projectBack").click(function(){
+				$("#donationSite").slideDown(1000);
+			});
+
+			$("#donateBtn").click(function(){
+				alert("Donation Successful");
+		    $('html, body').animate({
+		        scrollTop: $("h1").offset().top
+		    }, 1000);				
+			});
+
+		});
+	</script>
+</body>
+</html>
